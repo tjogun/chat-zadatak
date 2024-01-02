@@ -1,7 +1,11 @@
 import "./Message.scss";
 
 function Message({ content, classname }) {
-  return <div className={classname}>{content}</div>;
+  return (
+    <div>
+      <span className={classname}>{content}</span>
+    </div>
+  );
 }
 
 export default Message;
